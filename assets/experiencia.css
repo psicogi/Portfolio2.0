@@ -55,6 +55,18 @@
     text-align: right;
 }
 
+.link-projeto {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    font-size: .875rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
 .empresa-nome {
     font-size: 1.125rem;
     line-height: 1.1;
@@ -101,6 +113,13 @@
         position: initial;
         order: 1;
         text-align: left;
+    }
+
+    .link-projeto {
+        max-width: 50px;
+        position: initial;
+        order: 3;
+        margin-top: 22px;
     }
 }
 
