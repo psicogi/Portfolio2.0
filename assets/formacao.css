@@ -1,6 +1,6 @@
 .formacao {
     background: #141414;
-    color: #ffffff;
+    color: #fff;
 }
 
 .formacao-container {
@@ -25,7 +25,7 @@
 }
 
 .formacao .subtitulo {
-    color: #000000;
+    color: #000;
     max-width: 5ch;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .formacao-texto strong {
-    color: #ffffff;
+    color: #fff;
 }
 
 .formacao-lista {
@@ -50,7 +50,7 @@
 
 .formacao-item {
     flex: 1;
-    background: #000000;
+    background: #000;
     padding: 20px;
     border-radius: 4px;
     display: flex;
@@ -107,7 +107,7 @@
 }
 
 .idiomas li, .formacao-curso {
-    color: #ffffff;
+    color: #fff;
 }
 
 .idiomas h3::before {
@@ -131,7 +131,7 @@
         gap: 40px;
     }
     .formacao .subtitulo {
-        color: #ffffff;
+        color: #fff;
     }
     .formacao-texto {
         font-size: 1.25rem;
