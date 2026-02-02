@@ -5,12 +5,12 @@
 
 .formacao-container {
     max-width: 1200px;
-    padding: 120px 20px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 100px;
     position: relative;
+    gap: 100px;
+    padding: 120px 20px;
+    margin: 0 auto;
 }
 
 .formacao-container::after {
@@ -26,7 +26,6 @@
 
 .formacao .subtitulo {
     color: #000;
-    max-width: 5ch;
 }
 
 .formacao-texto {
@@ -49,12 +48,12 @@
 }
 
 .formacao-item {
-    flex: 1;
     background: #000;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     padding: 20px;
     border-radius: 4px;
-    display: flex;
-    flex-direction: column;
 }
 
 .formacao-tipo {
@@ -65,11 +64,11 @@
 }
 
 .formacao-curso {
+    position: relative;
     flex: 1;
     font-size: 1.125rem;
     line-height: 1.4;
     margin-bottom: 40px;
-    position: relative;
 }
 
 .formacao-curso::before {
@@ -88,17 +87,17 @@
 }
 
 .formacao-extra h3 {
+    position: relative;
     font-size: 0.875rem;
     line-height: 1.4;
     color: #8f8f8f;
     text-transform: uppercase;
     margin-bottom: 30px;
-    position: relative;
 }
 
 .formacao-extra h3::before {
-    display: block;
     content: "";
+    display: block;
     width: 24px;
     height: 24px;
     position: absolute;
