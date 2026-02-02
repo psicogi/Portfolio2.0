@@ -26,6 +26,7 @@
 
 .formacao .subtitulo {
     color: #000;
+    max-width: 5ch;
 }
 
 .formacao-texto {
@@ -129,12 +130,15 @@
         padding: 60px 20px;
         gap: 40px;
     }
+
     .formacao .subtitulo {
         color: #fff;
     }
+
     .formacao-texto {
         font-size: 1.25rem;
     }
+
     .formacao-extra h3::before {
         position: initial;
         margin-bottom: 10px;
